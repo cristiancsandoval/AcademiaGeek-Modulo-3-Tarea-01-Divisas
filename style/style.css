@@ -1,0 +1,98 @@
+/*Documento de estilos*/
+
+:root{
+
+    --fuente:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+label, select, input, button{
+
+    font-family: var(--fuente);
+    font-size: 1.1em;
+
+}
+
+label, button {
+
+    color: black;
+
+}
+
+select, input{
+
+    color: darkslategrey;
+
+}
+
+h1{
+
+    font-family: var(--fuente);
+    font-size: 1.5em;
+
+}
+
+.conversor{
+
+    margin: 5%;
+    
+    background-color: lightgray;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.conversor .botones{
+
+    padding: 1em;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.conversor .botones .boton{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 1em;
+    margin: 1em;
+
+}
+
+.conversor .botones #convertir{
+
+    background-color: lightgreen;
+    border-radius: 5px;
+
+}
+
+.conversor #respuesta{
+
+   width: 100%;
+   background-color: lightgray;
+
+}
+
+.conversor #respuesta p{
+
+    background-color: lightpink;
+    border-radius: 20px;
+
+    padding: 1em;
+    margin: 0.5em 2em;
+
+    font-family: var(--fuente);
+    text-align: center;
+    font-weight: bold;
+
+}
